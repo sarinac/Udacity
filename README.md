@@ -10,3 +10,6 @@ Investigate the Movies dataset using Python. Explore, clean, and analyze the dat
 
 ## Project 3 - Landing Page AB Testing
 Perform an A/B test on whether a new landing page leads to higher conversion rates.
+
+## Project 4 - WeRateDogs Twitter Ratings
+Gather data using Twitter's API and requests library, clean and analyze ratings on weratedogs.
