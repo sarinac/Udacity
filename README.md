@@ -1,15 +1,25 @@
-# Udacity - Data Analyst Nanodegree Program
-These are my projects from taking the <a href="https://www.udacity.com/course/data-analyst-nanodegree--nd002">
-Udacity Nanodegree online course</a>.
+# Bay Wheels Analysis
 
-## Project 1 - Weather Trends Analysis
-Explore weather data using SQL, MS Excel, and Python.
+**by Sarina Chen**
 
-## Project 2 - TMDB Movies Analysis
-Investigate the Movies dataset using Python. Explore, clean, and analyze the data.
+## Project Objectives
+For my final Udacity project on Data Visualization, I will pick a dataset to wrangle and conduct exploratory analyses. After reviewing the data, I will create a presentation using explanatory visualizations.
 
-## Project 3 - Landing Page AB Testing
-Perform an A/B test on whether a new landing page leads to higher conversion rates.
+## Data overview
+I will investigate the Bay Wheels system data publicly available on <a href="https://www.lyft.com/bikes/bay-wheels/system-data">Lyft's website</a>. Lyft is America's second biggest ride-sharing company, and since last year, the company started <a href="https://blog.lyft.com/posts/lyft-becomes-americas-largest-bikeshare-service">offering bike-share</a> and then scooter-share. Their bike sharing network was called Ford GoBike in the San Francisco Bay Area (originally by the service company Motivate which got acquired by Lyft) until Lyft <a href="https://techcrunch.com/2019/06/11/lyft-deploys-its-pink-wheeled-bikes-and-rebrands-ford-gobike-as-bay-wheels/">rebranded them as Lyft</a>.
 
-## Project 4 - WeRateDogs Twitter Wrangling + Analysis
-Gather data using Twitter's API and requests library, clean and analyze ratings on the WeRateDogs account.
+## Key Findings
+
+Based on data from January 2018 to September 2019.
+
+### Who are the users?
+
+The user base consists of 84% Subscribers and the remaining Customers. Most riders are between 25 and 40 years old, although there are few riders at 50 years old. 
+
+### When do most rides occur?
+
+Most rides occur during rush hour on Mondays through Fridays, with a large contribution from Subscribers. Saturdays are the most popular days for Customers. While Subscribers follow a routine, they are still affected by seasonality. There are significantly less rides in winter time likely due to the weather in the Bay Area.
+
+### Where do most rides occur?
+
+Most rides don't occur more than 4 miles apart and the majority of rides last 15 minutes. Most riders go along Market Street and Financial District for work and other activities. Another popular location is along the water near Embarcadero. Naturally, this is downtown San Francisco, where most companies are and where most tourists visit.
